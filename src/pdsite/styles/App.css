@@ -1,0 +1,75 @@
+body {
+  overflow-x: hidden;
+  width: 70%;
+  margin: auto;
+}
+
+hr {
+  color: pink;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  font-family: 'Manrope', sans-serif;
+}
+
+a:hover {
+  color: #dd37a9;
+}
+
+h2 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  font-size: 2.5vh;
+}
+
+h3 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  font-size: 2vh;
+}
+
+p {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+}
+
+.bannerPd {
+  position: relative;
+  background-image: url('../images/flower-banner.png');
+  background-position: center;
+  background-color: #ffffff;
+  background-repeat: repeat-x;
+  max-height: 300px;
+  min-height: 250px;
+}
+
+.title {
+  font-family: 'Roboto', sans-serif;
+  font-weight: bolder;
+  position: relative;
+  font-size: 3vh;
+  letter-spacing: 0.15em;
+  background: transparent;
+  border: transparent;
+  padding-top: 1em;
+}
+
+.storeButton {
+  background-image: url('../images/download-app-store.svg');
+  background-repeat: no-repeat;
+  border: none;
+  width: 125px;
+  height: 42px;
+  margin-left: 20px;
+  margin-top: 25px;
+  display: inline-block;
+  cursor: pointer;
+  outline: 0;
+}
+
+/*.main {*/
+/*  padding-top: 2em;*/
+/*  font-family: 'Roboto', sans-serif;*/
+/*}*/
