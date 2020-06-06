@@ -2,6 +2,7 @@ body {
   overflow-x: hidden;
   width: 70%;
   margin: auto;
+  background-color: #feeeff;
 }
 
 hr {
@@ -10,8 +11,9 @@ hr {
 
 a {
   text-decoration: none;
-  color: black;
-  font-family: 'Manrope', sans-serif;
+  color: purple;
+  font-family: 'Roboto', sans-serif;
+
 }
 
 a:hover {
@@ -33,11 +35,30 @@ h3 {
 p {
   font-family: 'Roboto', sans-serif;
   font-weight: 100;
+  padding-left: 1.3em;
+}
+
+ol {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+}
+
+li {
+  padding: 10px;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  max-width: 400px;
+  padding-left: 1.3em;
+  padding-top: 2em;
+  padding-bottom: 2em;
 }
 
 .bannerPd {
   position: relative;
-  background-image: url('../images/flower-banner.png');
+  background-image: url('../Images/flower-banner.png');
   background-position: center;
   background-color: #ffffff;
   background-repeat: repeat-x;
@@ -54,10 +75,11 @@ p {
   background: transparent;
   border: transparent;
   padding-top: 1em;
+  padding-left: 0.75em;
 }
 
 .storeButton {
-  background-image: url('../images/download-app-store.svg');
+  background-image: url('../Images/download-app-store.svg');
   background-repeat: no-repeat;
   border: none;
   width: 125px;

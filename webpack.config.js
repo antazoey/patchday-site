@@ -38,9 +38,9 @@ module.exports = {
     ],
     extensions: [".js", ".json", ".jsx", ".css"],
     alias: {
-      Components: path.resolve(__dirname, 'src/pdsite/components/'),
-      Styles: path.resolve(__dirname, 'src/pdsite/styles/'),
-      Images: path.resolve(__dirname, 'src/pdsite/images/')
+      Components: path.resolve(__dirname, 'src/pdsite/Components/'),
+      Styles: path.resolve(__dirname, 'src/pdsite/Styles/'),
+      Images: path.resolve(__dirname, 'src/pdsite/Images/')
     },
   },
   plugins: [
