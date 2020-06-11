@@ -1,8 +1,9 @@
 body {
   overflow-x: hidden;
-  width: 70%;
+  width: 80%;
   margin: auto;
   background-color: #feeeff;
+  align-content: center;
 }
 
 hr {
@@ -36,6 +37,7 @@ p {
   font-family: 'Roboto', sans-serif;
   font-weight: 100;
   padding-left: 1.3em;
+  padding-right: 1.3em;
 }
 
 ol {
@@ -54,6 +56,12 @@ img {
   padding-left: 1.3em;
   padding-top: 2em;
   padding-bottom: 2em;
+}
+
+img.displayed {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .bannerPd {
@@ -90,8 +98,3 @@ img {
   cursor: pointer;
   outline: 0;
 }
-
-/*.main {*/
-/*  padding-top: 2em;*/
-/*  font-family: 'Roboto', sans-serif;*/
-/*}*/
