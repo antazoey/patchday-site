@@ -36,6 +36,7 @@ const App = () => (
       <ul><a href="#ConfigureHormones">Configure Hormone Settings</a></ul>
       <ul><a href="#ConfigurePills">Configure Pill Settings</a></ul>
       <ul><a href="#ConfigureSites">Configure Site Settings</a></ul>
+      <ul><a href="#PrivacyPolicy">Privacy Policy</a></ul>
     </Card>
     <br/>
     <Card id="ConfigureHormones">
@@ -84,6 +85,47 @@ const App = () => (
       </p>
       <img src={DoubleSites} alt="Double sites" />
     </Card>
+    <br/>
+    <Card id="PrivacyPolicy">
+      <div><h2 className='title'>Privacy Policy</h2></div>
+      <p>
+        I, Juliya Smith, the developer of PatchDay - HRT Schedule (hereto referred
+        to as &quot;the app&quot;), do not collect, view, sell, or use any user
+        data.
+      </p>
+      <p>
+        The app has no sensitive data collection functions or processes, meaning
+        that users&apos; HRT schedule data cannot be used to identify them.
+      </p>
+      <p>
+        The app uses{' '}
+        <a href="https://developer.apple.com/library/archive/documentation/Cocoa/Conceptual/CoreData/index.html">
+          CoreData
+        </a>
+        , which defaults to a SQLite database (
+        <a href="https://sqlite.org/index.html">the most commonly used database engine
+        in the world</a>). The app also stores some variables in{' '}
+        <a href="https://developer.apple.com/documentation/foundation/userdefaults">
+          NSUserDefaults
+        </a>
+        . All data in the app is stored locally on the user&apos;s device, and is
+        not visible to the outside world.
+      </p>
+      <p>
+        {' '}
+        The data is only ever manipulated when it is brought into memory by the
+        app.
+      </p>
+    </Card>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
   </div>
 );
 
