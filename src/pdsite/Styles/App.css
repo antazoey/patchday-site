@@ -1,0 +1,100 @@
+body {
+  overflow-x: hidden;
+  width: 80%;
+  margin: auto;
+  background-color: #feeeff;
+  align-content: center;
+}
+
+hr {
+  color: pink;
+}
+
+a {
+  text-decoration: none;
+  color: purple;
+  font-family: 'Roboto', sans-serif;
+
+}
+
+a:hover {
+  color: #dd37a9;
+}
+
+h2 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  font-size: 2.5vh;
+}
+
+h3 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  font-size: 2vh;
+}
+
+p {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+  padding-left: 1.3em;
+  padding-right: 1.3em;
+}
+
+ol {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+}
+
+li {
+  padding: 10px;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  max-width: 400px;
+  padding-left: 1.3em;
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
+
+img.displayed {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.bannerPd {
+  position: relative;
+  background-image: url('../Images/flower-banner.png');
+  background-position: center;
+  background-color: #ffffff;
+  background-repeat: repeat-x;
+  max-height: 300px;
+  min-height: 250px;
+}
+
+.title {
+  font-family: 'Roboto', sans-serif;
+  font-weight: bolder;
+  position: relative;
+  font-size: 3vh;
+  letter-spacing: 0.15em;
+  background: transparent;
+  border: transparent;
+  padding-top: 1em;
+  padding-left: 0.75em;
+}
+
+.storeButton {
+  background-image: url('../Images/download-app-store.svg');
+  background-repeat: no-repeat;
+  border: none;
+  width: 125px;
+  height: 42px;
+  margin-left: 20px;
+  margin-top: 25px;
+  display: inline-block;
+  cursor: pointer;
+  outline: 0;
+}

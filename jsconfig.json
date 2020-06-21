@@ -1,0 +1,7 @@
+{
+  "compilerOptions": {
+    "baseUrl": "src/pdsite"
+  },
+  "include": ["src/pdsite"],
+  "exclude": ["node_modules", "dist"]
+}
