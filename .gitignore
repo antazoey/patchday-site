@@ -4,6 +4,9 @@
 .#*
 .DS_Store
 
+# package
+dist/
+
 # Test
 coverage
 .eslintcache
