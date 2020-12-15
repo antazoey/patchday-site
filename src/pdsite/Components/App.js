@@ -14,7 +14,7 @@ import DoubleSites from 'Images/double_sites.png'
 
 const App = () => (
   <div>
-    <Card>
+    <Card className='pdCard'>
       <div>
         <div className='bannerPd'>
           <div className='title'>
@@ -31,16 +31,15 @@ const App = () => (
         </div>
       </div>
     </Card>
-    <Card>
+    <Card className='pdCard'>
       <div><h2 className='title'>Contents</h2></div>
       <ul><a href="#ConfigureHormones">Configure Hormone Settings</a></ul>
       <ul><a href="#ConfigurePills">Configure Pill Settings</a></ul>
       <ul><a href="#ConfigureSites">Configure Site Settings</a></ul>
       <ul><a href="#PrivacyPolicy">Privacy Policy</a></ul>
     </Card>
-    <br/>
-    <Card id="ConfigureHormones">
-      <a title="ConfigureHormoneSettings" />
+    <Card id='ConfigureHormones' className='pdCard'>
+      <a title='ConfigureHormoneSettings' />
       <div><h2 className='title'>Configure Hormone Settings</h2></div>
       <p>
         Tap the gear icon in the top right of the main screen to modify settings
@@ -53,8 +52,7 @@ const App = () => (
       </p>
       <img src={SetSettings} alt="Set Settings"/>
     </Card>
-    <br/>
-    <Card id="ConfigurePills">
+    <Card id='ConfigurePills'>
       <div><h2 className='title'>Configure Pill Settings</h2></div>
       <p>Tap the center Pills tab to navigate to the Pills View.</p>
       <img src={SelectedPillsTab} alt="Pills Tab" />
@@ -68,7 +66,7 @@ const App = () => (
       <img src={SetPillProps} alt="Set pill props" />
     </Card>
     <br/>
-    <Card id="ConfigureSites">
+    <Card id='ConfigureSites'>
       <div><h2 className='title'>Configure Site Settings</h2></div>
       <p>
         Create sites to match the order you wish to have autofill work.
@@ -85,47 +83,17 @@ const App = () => (
       </p>
       <img src={DoubleSites} alt="Double sites" />
     </Card>
-    <br/>
-    <Card id="PrivacyPolicy">
+    <Card id='PrivacyPolicy' className='footer'>
       <div><h2 className='title'>Privacy Policy</h2></div>
       <p>
-        I, Juliya Smith, the developer of PatchDay - HRT Schedule (hereto referred
-        to as &quot;the app&quot;), do not collect, view, sell, or use any user
-        data.
+        I, <a href='https://juliyasmith.com'>Juliya Smith</a>, the developer of{' '}
+        <a href='https://apps.apple.com/us/app/patchday-hrt-schedule/id1253637065'>PatchDay - HRT Schedule</a>{' '}
+        do not collect, view, sell, or use any user data.
       </p>
       <p>
-        The app has no sensitive data collection functions or processes, meaning
-        that users&apos; HRT schedule data cannot be used to identify them.
-      </p>
-      <p>
-        The app uses{' '}
-        <a href="https://developer.apple.com/library/archive/documentation/Cocoa/Conceptual/CoreData/index.html">
-          CoreData
-        </a>
-        , which defaults to a SQLite database (
-        <a href="https://sqlite.org/index.html">the most commonly used database engine
-        in the world</a>). The app also stores some variables in{' '}
-        <a href="https://developer.apple.com/documentation/foundation/userdefaults">
-          NSUserDefaults
-        </a>
-        . All data in the app is stored locally on the user&apos;s device, and is
-        not visible to the outside world.
-      </p>
-      <p>
-        {' '}
-        The data is only ever manipulated when it is brought into memory by the
-        app.
+        All user data is stored locally on the iOS device that installs the app.
       </p>
     </Card>
-    <br/>
-    <br/>
-    <br/>
-    <br/>
-    <br/>
-    <br/>
-    <br/>
-    <br/>
-    <br/>
   </div>
 );
 

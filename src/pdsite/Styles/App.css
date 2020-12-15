@@ -14,7 +14,6 @@ a {
   text-decoration: none;
   color: purple;
   font-family: 'Roboto', sans-serif;
-
 }
 
 a:hover {
@@ -97,4 +96,13 @@ img.displayed {
   display: inline-block;
   cursor: pointer;
   outline: 0;
+}
+
+.pdCard {
+  margin-top: 10px;
+}
+
+.footer {
+  margin-top: 10px;
+  margin-bottom: 35px;
 }
