@@ -106,3 +106,7 @@ img.displayed {
   margin-top: 10px;
   margin-bottom: 35px;
 }
+
+.horizontal {
+  float: left;
+}
