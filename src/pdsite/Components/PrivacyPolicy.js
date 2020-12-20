@@ -3,7 +3,7 @@ import React from 'react';
 
 const PrivacyPolicy = () => (
   <Card id='PrivacyPolicy' className='footer'>
-    <div><h2 className='title'>Privacy Policy</h2></div>
+    <h2 className='title'>Privacy Policy</h2>
     <p>
       I, <a href='https://juliyasmith.com'>Juliya Smith</a>, the developer of{' '}
       <a href='https://apps.apple.com/us/app/patchday-hrt-schedule/id1253637065'>PatchDay - HRT Schedule</a>{' '}

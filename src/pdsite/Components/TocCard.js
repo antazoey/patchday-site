@@ -3,7 +3,7 @@ import React from 'react';
 
 const TocCard = () => (
   <Card className='pdCard'>
-    <div><h2 className='title'>Contents</h2></div>
+    <h2 className='title'>Contents</h2>
     <ul><a href="#ConfigureHormones">Configure Hormone Settings</a></ul>
     <ul><a href="#ConfigurePills">Configure Pill Settings</a></ul>
     <ul><a href="#ConfigureSites">Configure Site Settings</a></ul>
