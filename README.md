@@ -2,10 +2,28 @@
 
 Contains the documentation for the PatchDay iOS app.
 
-## Development flow
+## Running locally
 
-In one terminal, run `npm run start` to start watch the source files and hot reload.
+In one terminal start the hot-reloader:
 
-Then, in another terminal run `npm run serve` and point your browser at `localhost:5000`.
+```bash
+npm run start
+````
 
-To deploy, do `npm run deploy` which first build the `dist` and then deploys it using `firebase`.
+Then, in another terminal, run in a server:
+ 
+```bash
+npm run serve
+```
+
+Go to `localhost:5000` to see the site.
+
+## Deployment
+
+To deploy, do
+ 
+ ```bash
+npm run deploy
+```
+ 
+This first builds (outputs to `dist/`) and then deploys it using the `firebase` CLI.
