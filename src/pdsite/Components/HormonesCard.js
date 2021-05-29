@@ -5,9 +5,9 @@ import React from 'react';
 import Image from 'react-bootstrap/Image';
 
 const HormonesCard = () => (
-  <Card id='ConfigureHormones' className='pdCard'>
-    <a title='ConfigureHormoneSettings' />
-    <h2 className='title'>Configure Hormone Settings</h2>
+  <Card id='Hormones' className='pdCard'>
+    <a title='Settings' />
+    <h2 className='title'>Hormone and Global Settings</h2>
     <p>
       Tap the gear icon in the top right of the main screen to modify settings
       for the hormone schedule.

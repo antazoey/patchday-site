@@ -4,8 +4,8 @@ import DoubleSites from 'Images/double_sites.png';
 import React from 'react';
 
 const SitesCard = () => (
-  <Card id='ConfigureSites' className='pdCard'>
-    <h2 className='title'>Configure Site Settings</h2>
+  <Card id='Sites' className='pdCard'>
+    <h2 className='title'>Site List</h2>
     <p>
       Create sites to match the order you wish to have autofill work.
       Edit site details by tapping one of the sites or inserting a new site

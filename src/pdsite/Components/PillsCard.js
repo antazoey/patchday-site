@@ -6,8 +6,8 @@ import SetPillProps from 'Images/set_pill_props.png';
 import React from 'react';
 
 const PillsCard = () => (
-  <Card id='ConfigurePills' className='pdCard'>
-      <h2 className='title'>Configure Pill Settings</h2>
+  <Card id='Pills' className='pdCard'>
+      <h2 className='title'>Pill Settings</h2>
       <p>Tap the center Pills tab to navigate to the Pills View.</p>
       <p>Select a pill from the list to edit or take it.</p>
       <p>Or, to add pills, use the plus arrow in the top right corner of the Pills View.</p>
