@@ -5,9 +5,8 @@ import React from 'react';
 import Image from 'react-bootstrap/Image';
 
 const HormonesCard = () => (
-  <Card id='Hormones' className='pdCard'>
-    <a title='Settings' />
-    <h2 className='title'>Hormone and Global Settings</h2>
+  <Card id="Hormones" className="pdCard">
+    <h2 className="title">Hormone and Global Settings</h2>
     <p>
       Tap the gear icon in the top right of the main screen to modify settings
       for the hormone schedule.
@@ -16,9 +15,9 @@ const HormonesCard = () => (
       Make sure to set the correct Delivery Method, Expiration Interval, and
       Quantity.
     </p>
-    <Image src={FindSettings} alt='Find settings' />
-    <Image src={SetSettings} alt='Set Settings' />
+    <Image src={FindSettings} alt="Find settings" />
+    <Image src={SetSettings} alt="Set Settings" />
   </Card>
-)
+);
 
-export default HormonesCard
+export default HormonesCard;

@@ -3,7 +3,7 @@
     "public": "dist",
     "ignore": [
       "firebase.json",
-      "CONTRIBUTING.md",
+      "README.md",
       "**/.*",
       "**/node_modules/**"
     ],

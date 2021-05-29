@@ -6,7 +6,7 @@ import HormonesCard from 'Components/HormonesCard';
 import PillsCard from 'Components/PillsCard';
 import SitesCard from 'Components/SitesCard';
 import PrivacyPolicy from 'Components/PrivacyPolicy';
-import styles from 'Styles/App.css';
+import 'Styles/App';
 
 const App = () => (
   <div>

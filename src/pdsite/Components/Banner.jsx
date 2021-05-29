@@ -3,12 +3,10 @@ import { Button } from 'react-bootstrap';
 import React from 'react';
 
 const Banner = () => (
-  <Card className='pdCard'>
+  <Card className="pdCard">
     <div>
-      <div className='bannerPd'>
-        <div className='title'>
-          PatchDay /Help
-        </div>
+      <div className="bannerPd">
+        <div className="title">PatchDay /Help</div>
         <Button
           variant="outline-primary"
           className="storeButton"
@@ -20,6 +18,6 @@ const Banner = () => (
       </div>
     </div>
   </Card>
-)
+);
 
 export default Banner;

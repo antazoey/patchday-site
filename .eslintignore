@@ -1,0 +1,7 @@
+.git
+node_modules
+dist
+public
+webpack.config.js
+bin
+build
