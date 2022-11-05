@@ -2,7 +2,7 @@
   "name": "patchday-site",
   "version": "1.0.0",
   "description": "PatchDay iOS App Support Site",
-  "main": "src/pdsite/index.js",
+  "main": "src/pdsite/index.jsx",
   "dependencies": {
     "@material-ui/core": "^4.10.1",
     "react": "^16.13.1",
